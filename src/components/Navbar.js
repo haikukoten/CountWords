@@ -3,7 +3,6 @@ import PropTypes from "prop-types";
 import { Link } from "react-router-dom";
 
 export default function Navbar(props) {
-
   return (
     <div>
       <nav
@@ -26,11 +25,11 @@ export default function Navbar(props) {
           </button>
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-              <li className="nav-item">
+              {/* <li className="nav-item">
                 <Link className="nav-link" aria-current="page" to="/">
                   Home
                 </Link>
-              </li>
+              </li> */}
               <li className="nav-item">
                 <Link className="nav-link" to="/about">
                   {props.about}
@@ -38,7 +37,6 @@ export default function Navbar(props) {
               </li>
             </ul>
             <form className="d-flex" role="search">
-              
               {/* <div className="d-flex">
                 <div
                   className="bg-primary rounded mx-2"
@@ -69,7 +67,7 @@ export default function Navbar(props) {
                   }}
                 ></div>
               </div> */}
-        
+
               <div
                 className={`form-check form-switch text-${
                   props.mode === "light" ? "dark" : "white"

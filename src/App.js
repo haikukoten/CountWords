@@ -12,15 +12,15 @@ import {
 function App() {
   const [mode, setMode] = useState("light"); //check dark mode
   const [alert, setAlert] = useState(null);
-  
-//   const removeBodyClasses=()=>{
-//   document.body.classList.remove('bg-light')
-//   document.body.classList.remove('bg-dark')
-//   document.body.classList.remove('bg-primary')
-//   document.body.classList.remove('bg-success')
-//   document.body.classList.remove('bg-warning')
-//   document.body.classList.remove('bg-danger')
-// }
+
+  //   const removeBodyClasses=()=>{
+  //   document.body.classList.remove('bg-light')
+  //   document.body.classList.remove('bg-dark')
+  //   document.body.classList.remove('bg-primary')
+  //   document.body.classList.remove('bg-success')
+  //   document.body.classList.remove('bg-warning')
+  //   document.body.classList.remove('bg-danger')
+  // }
   const showAlert = (message, type) => {
     setAlert({
       msg: message,
@@ -38,11 +38,11 @@ function App() {
     if (mode === "light") {
       setMode("dark");
       document.body.style.backgroundColor = "#0e1a2d";
-      showAlert("Dark mode has been enabled", "success");
+      // showAlert("Dark mode has been enabled", "success");
     } else {
       setMode("light");
       document.body.style.backgroundColor = "white";
-      showAlert("Light mode has been enabled", "success");
+      // showAlert("Light mode has been enabled", "success");
     }
   };
   return (
