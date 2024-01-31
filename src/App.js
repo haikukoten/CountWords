@@ -49,7 +49,7 @@ function App() {
     <>
       <BrowserRouter>
         <Navbar
-          title="MyApp"
+          title="TextNinja"
           about="About us"
           mode={mode}
           toggleMode={toggleMode}
