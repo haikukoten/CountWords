@@ -15,4 +15,4 @@ After completing that, run the following command to start the app:
 This command runs the app in development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-You can contribute by adding more features or improving existing ones. Feel free to fork this repository and make your enhancements. We welcome contributions!
+You can contribute by adding more features or improving existing ones. Feel free to fork this repository and make your enhancements.
