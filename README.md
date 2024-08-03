@@ -1,4 +1,4 @@
-# TextNinja
+# CountWords
 
 ### A React app for text modification. For example, convert text into uppercase, lowercase, or title case.
 
