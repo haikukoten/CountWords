@@ -62,7 +62,7 @@ function App() {
               path="/"
               element={
                 <TextForm
-                  heading="Just type in TextNinja - Word Counter, Character Counter, Remove Extra Spaces"
+                  heading="Just type in CountWords - Word Counter, Character Counter, Remove Extra Spaces"
                   mode={mode}
                   text="Example Textarea"
                   showAlert={showAlert}
