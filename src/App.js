@@ -49,7 +49,7 @@ function App() {
     <>
       <BrowserRouter>
         <Navbar
-          title="TextNinja"
+          title="CountWords"
           about="About us"
           mode={mode}
           toggleMode={toggleMode}
