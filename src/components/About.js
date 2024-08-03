@@ -16,8 +16,8 @@ export default function About(props) {
       className="container"
       style={{ color: props.mode === "dark" ? "white" : "black" }}
     >
-      <h2 className="my-2">About TextNinja</h2>
-      <p>Welcome to TextNinja, where text manipulation meets simplicity!</p>
+      <h2 className="my-2">About CountWords</h2>
+      <p>Welcome to CountWords, where text manipulation meets simplicity!</p>
       <div className="accordion" id="accordionExample" style={myStyle}>
         <div className="accordion-item">
           <h2 className="accordion-header">
@@ -30,7 +30,7 @@ export default function About(props) {
               aria-controls="collapseOne"
               style={myStyle}
             >
-              <strong>What is textNinja?</strong>
+              <strong>What is CountWords?</strong>
             </button>
           </h2>
           <div
@@ -39,7 +39,7 @@ export default function About(props) {
             data-bs-parent="#accordionExample"
           >
             <div className="accordion-body" style={myStyle}>
-              <strong>TextNinja</strong> is a free-to-use web application
+              <strong>CountWords</strong> is a free-to-use web application
               designed to showcase my skills in text manipulation. This project
               serves as a testament to my proficiency in React and web
               development, providing users with a platform to experiment with
@@ -69,7 +69,7 @@ export default function About(props) {
             <div className="accordion-body" style={myStyle}>
               Harness the power of text manipulation with ease. Whether you want
               to convert case, reverse text, or perform other transformations,
-              textNinja has you covered.
+              CountWords has you covered.
             </div>
           </div>
         </div>
@@ -93,7 +93,7 @@ export default function About(props) {
             data-bs-parent="#accordionExample"
           >
             <div className="accordion-body" style={myStyle}>
-              <strong>TextNinja</strong> is not just a text manipulation tool;
+              <strong>CountWords</strong> is not just a text manipulation tool;
               it's a reflection of my skills in web development. Explore the
               functionalities, and witness the seamless user experience crafted
               with React.
