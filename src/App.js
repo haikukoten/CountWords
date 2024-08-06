@@ -53,14 +53,25 @@ function App() {
           about="About us"
           mode={mode}
           toggleMode={toggleMode}
-        >
-          <Link to="/blog" className="nav-link">Blog</Link> {/* Add the Blog link */}
-        </Navbar>
+        />
         <Alert alert={alert} />
         <div className="container">
           <Routes>
-            {/* ... your existing routes */}
-            <Route exact path="/blog" element={<Blog mode={mode} />} /> {/* New blog route */}
+            <Route
+              exact
+              path="/"
+              element={
+                <TextForm
+                  heading="Just type in CountWords - Word Counter, Character Counter, Remove Extra Spaces"
+                  mode={mode}
+                  text="Example Textarea"
+                  showAlert={showAlert}
+                />
+              }
+            />
+          </Routes>
+          <Routes>
+            <Route exact path="/about" element={<About mode={mode} />} />
           </Routes>
         </div>
       </BrowserRouter>
